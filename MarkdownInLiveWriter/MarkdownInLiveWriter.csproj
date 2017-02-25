@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MarkdownInLiveWriter</RootNamespace>
     <AssemblyName>MarkdownInLiveWriter</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -30,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -38,8 +39,8 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsLive.Writer.Api">
-      <HintPath>lib\WindowsLive.Writer.Api.dll</HintPath>
+    <Reference Include="OpenLiveWriter.Api">
+      <HintPath>D:\OpenLiveWriterPortable\App\OpenLiveWriter\OpenLiveWriter.Api.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
