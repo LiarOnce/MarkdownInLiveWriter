@@ -20,7 +20,7 @@ then put it in the [OpenLiveWriterPath]\Plugins\.
 
 ## Requirements
 
-Please install [Open Live Writer](http://openlivewriter.org)
+Please install [Open Live Writer](http://openlivewriter.org) and .NET Framework 4.5.2 and later.
 
 ## Credits
 
