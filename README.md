@@ -27,7 +27,7 @@ System.NullReferenceException: Object reference not set to an instance of an obj
    at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
    at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
 ```
-I am not a professional C # programmer, so I do not know how this bug should be fixed, if you know how to repair please initiate a Pull request.
+I am not a professional C# programmer, so I do not know how this bug should be fixed, if you know how to repair please initiate a Pull request.
 
 ## Installation
 
