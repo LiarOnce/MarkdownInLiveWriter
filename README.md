@@ -7,6 +7,28 @@ You can use this plugin to write your blog in markdown, and it provides the live
 
 It built from [fresky/MarkdownInLiveWriter](https://github.com/fresky/MarkdownInLiveWriter)
 
+## Have a bug in Open Live Writer 0.6.2.0!
+
+```
+发生意外错误
+应用程序发生意外错误。
+
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MarkdownInLiveWriter.MarkdownForm.highlightCode()
+   at MarkdownInLiveWriter.MarkdownForm.highlightBtn_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+```
+I am not a professional C # programmer, so I do not know how this bug should be fixed, if you know how to repair please initiate a Pull request.
+
 ## Installation
 
 **Option 1:**
